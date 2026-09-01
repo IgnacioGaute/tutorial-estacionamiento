@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Garage Mitre — Tutoriales del sistema</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23180e04'/%3E%3Cpath d='M10 50 V20 L23 38 L32 16 L41 38 L54 20 V50' stroke='%23f0ba1c' stroke-width='8' stroke-linejoin='round' stroke-linecap='round' fill='none'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Archivo:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__stripe gm-stripes"></div>
+    <div class="site-header__inner">
+      <svg class="site-header__mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="hsl(30 78% 7%)"/>
+        <defs>
+          <linearGradient id="g" x1="10" y1="10" x2="54" y2="54" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="hsl(46 92% 53%)"/>
+            <stop offset="1" stop-color="hsl(14 80% 51%)"/>
+          </linearGradient>
+        </defs>
+        <path d="M10 50 V20 L23 38 L32 16 L41 38 L54 20 V50" stroke="url(#g)" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+      </svg>
+      <div class="site-header__titles">
+        <span class="site-header__brand gm-display">Garage Mitre</span>
+        <span class="site-header__subtitle">Tutoriales del sistema — guía en video para el equipo</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Índice de videos">
+    <a href="#login"><span class="n gm-mono">01</span> Login y usuarios</a>
+    <a href="#tickets"><span class="n gm-mono">02</span> Tickets</a>
+    <a href="#clientes"><span class="n gm-mono">03</span> Clientes y recibos</a>
+    <a href="#dashboard-varios"><span class="n gm-mono">04</span> Varios y Dashboard</a>
+  </nav>
+
+  <main>
+
+    <section class="lesson" id="login">
+      <div class="lesson__head">
+        <div class="lesson__number gm-mono">01</div>
+        <div>
+          <h2 class="lesson__title gm-display">Login, usuarios y roles</h2>
+          <p class="lesson__desc">Cómo entrar al sistema con email o usuario, recuperar la contraseña, y cómo administrar las cuentas del equipo: crear operadores, editar perfiles y dar de baja usuarios desde Admin → Usuarios.</p>
+        </div>
+      </div>
+      <div class="lesson__video">
+        <video controls preload="metadata">
+          <source src="videos/login.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <section class="lesson" id="tickets">
+      <div class="lesson__head">
+        <div class="lesson__number gm-mono">02</div>
+        <div>
+          <h2 class="lesson__title gm-display">Tickets: operación y administración</h2>
+          <p class="lesson__desc">El flujo diario de ingreso y salida de vehículos —por patente o por ticket, con el buscador de clientes frecuentes— y el lado admin: tarifas, fichas físicas, clientes frecuentes y la planilla de caja.</p>
+        </div>
+      </div>
+      <div class="lesson__video">
+        <video controls preload="metadata">
+          <source src="videos/tickets.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <section class="lesson" id="clientes">
+      <div class="lesson__head">
+        <div class="lesson__number gm-mono">03</div>
+        <div>
+          <h2 class="lesson__title gm-display">Clientes, recibos y pagos</h2>
+          <p class="lesson__desc">Alta y gestión de propietarios, inquilinos e inquilinos de terceros: cocheras, tipos de estacionamiento, generación de recibos mensuales y registro de pagos.</p>
+        </div>
+      </div>
+      <div class="lesson__video">
+        <video controls preload="metadata">
+          <source src="videos/clientes.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <section class="lesson" id="dashboard-varios">
+      <div class="lesson__head">
+        <div class="lesson__number gm-mono">04</div>
+        <div>
+          <h2 class="lesson__title gm-display">Varios y Dashboard</h2>
+          <p class="lesson__desc">Ingresos y egresos sueltos de caja, y un recorrido por el Dashboard: recaudación, actividad por hora, ingresos vs egresos, recibos pagados y tipos de pago.</p>
+        </div>
+      </div>
+      <div class="lesson__video">
+        <video controls preload="metadata">
+          <source src="videos/dashboard-varios.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    Uso interno — Garage Mitre
+  </footer>
+
+</body>
+</html>
