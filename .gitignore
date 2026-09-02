@@ -1,1 +1,6 @@
 videos/
+
+# Agent skill tooling installed via `npx skills add` (not site source)
+.agents/
+.claude/
+skills-lock.json
